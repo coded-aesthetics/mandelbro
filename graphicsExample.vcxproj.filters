@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="src\testApp.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\mandelbrot.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\ofxFX\src\ofxFXObject.cpp">
+      <Filter>addons\ofxFX</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{d8376475-7454-4a24-b08a-aac121d3ad6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons">
+      <UniqueIdentifier>{72adbe03-684f-4811-a2e3-e3387e322783}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxFX">
+      <UniqueIdentifier>{30615e34-e789-4070-bb9f-7f9b6b7fecb0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxFX\filters">
+      <UniqueIdentifier>{d4e45829-cf77-46c1-b4a8-5a5beb92257d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxFX\generative">
+      <UniqueIdentifier>{5f00b800-1ac0-4614-ba01-424bd2430c5e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxFX\operations">
+      <UniqueIdentifier>{618d155e-d40c-4b2e-817c-b75c4bd438c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxFX\composers">
+      <UniqueIdentifier>{7d71e280-9d6b-44ee-9b3e-d3ce6768e241}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\testApp.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\mandelbrot.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\ofxFX\src\ofxFX.h">
+      <Filter>addons\ofxFX</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\ofxFX\src\ofxFXObject.h">
+      <Filter>addons\ofxFX</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\ofxFX\src\ofxSwapBuffer.h">
+      <Filter>addons\ofxFX</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\ofxFX\src\operations\ofxAbsDiff.h">
+      <Filter>addons\ofxFX\operations</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\ofxFX\src\operations\ofxBounce.h">
+      <Filter>addons\ofxFX\operations</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\ofxFX\src\operations\ofxDisplacePixels.h">
+      <Filter>addons\ofxFX\operations</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\ofxFX\src\operations\ofxNormals.h">
+      <Filter>addons\ofxFX\operations</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\ofxFX\src\operations\ofxRipples.h">
+      <Filter>addons\ofxFX\operations</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\ofxFX\src\operations\ofxSubstract.h">
+      <Filter>addons\ofxFX\operations</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\ofxFX\src\operations\ofxThreshold.h">
+      <Filter>addons\ofxFX\operations</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\ofxFX\src\composers\ofxBlend.h">
+      <Filter>addons\ofxFX\composers</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\ofxFX\src\composers\ofxClone.h">
+      <Filter>addons\ofxFX\composers</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\ofxFX\src\composers\ofxMask.h">
+      <Filter>addons\ofxFX\composers</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\ofxFX\src\composers\ofxMultiTexture.h">
+      <Filter>addons\ofxFX\composers</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\ofxFX\src\generative\ofxFire.h">
+      <Filter>addons\ofxFX\generative</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\ofxFX\src\generative\ofxGrayScott.h">
+      <Filter>addons\ofxFX\generative</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\ofxFX\src\generative\ofxNoise.h">
+      <Filter>addons\ofxFX\generative</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\ofxFX\src\generative\ofxTint.h">
+      <Filter>addons\ofxFX\generative</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\ofxFX\src\filters\ofxBarrelChromaAb.h">
+      <Filter>addons\ofxFX\filters</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\ofxFX\src\filters\ofxBloom.h">
+      <Filter>addons\ofxFX\filters</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\ofxFX\src\filters\ofxBlur.h">
+      <Filter>addons\ofxFX\filters</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\ofxFX\src\filters\ofxBokeh.h">
+      <Filter>addons\ofxFX\filters</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\ofxFX\src\filters\ofxChromaAb.h">
+      <Filter>addons\ofxFX\filters</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\ofxFX\src\filters\ofxChromaGlitch.h">
+      <Filter>addons\ofxFX\filters</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\ofxFX\src\filters\ofxContrast.h">
+      <Filter>addons\ofxFX\filters</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\ofxFX\src\filters\ofxGaussianBlur.h">
+      <Filter>addons\ofxFX\filters</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\ofxFX\src\filters\ofxGlow.h">
+      <Filter>addons\ofxFX\filters</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\ofxFX\src\filters\ofxGrayscale.h">
+      <Filter>addons\ofxFX\filters</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\ofxFX\src\filters\ofxInverse.h">
+      <Filter>addons\ofxFX\filters</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\ofxFX\src\filters\ofxLUT.h">
+      <Filter>addons\ofxFX\filters</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\ofxFX\src\filters\ofxMedian.h">
+      <Filter>addons\ofxFX\filters</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\ofxFX\src\filters\ofxOldTv.h">
+      <Filter>addons\ofxFX\filters</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="icon.rc" />
+  </ItemGroup>
+</Project>
