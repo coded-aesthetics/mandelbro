@@ -24,7 +24,7 @@ public:
 		colorAmount = 45 + rand() % (240 - 45);
 	}
 
-	void mandelbrot::threadedFunction() {
+	void threadedFunction() {
 		double vXMin = viewportX;
 		double vXMax = viewportX + viewportSize;
 		double vYMin = viewportY;
@@ -192,4 +192,3 @@ public:
 
 	int initMaxIts;
 };
-
