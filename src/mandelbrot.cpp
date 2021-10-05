@@ -1,4 +1,4 @@
-#include "mandelbrot.h"
+#include "./mandelbrot.h"
 
 mandelbrot::mandelbrot() {
 }
@@ -80,11 +80,9 @@ ofVec2f mandelbrot::oneMandel(double x, double y, double c1, double c2) {
 	return ofVec2f(x*x - y*y + c1, 2*x*y + c2); 
 }
 
-double inline __declspec (naked) __fastcall sqrtX(double n)
+double inline  sqrtX(double n)
 {
-    _asm fld qword ptr [esp+4]
-    _asm fsqrt
-    _asm ret 8
+	return std::sqrt(n);
 } 
 
 int mandelbrot::doTheMandelbrot(double x, double y, vector<ofPoint>* points, bool usePoints, bool gimmeColors) {

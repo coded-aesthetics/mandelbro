@@ -166,12 +166,11 @@ void testApp::draw()
 
 		m.zoomFactor = m2.zoomFactor = m3.zoomFactor = m4.zoomFactor = zF;
 
+		m.startThread();
+		m2.startThread();
+		m3.startThread();
+		m4.startThread();
 
-		m.startThread(true, false);
-		m2.startThread(true, false);
-		m3.startThread(true, false);
-		m4.startThread(true, false);
-		
 		m.waitForThread(true);
 		m2.waitForThread(true);
 		m3.waitForThread(true);

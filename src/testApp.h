@@ -106,4 +106,3 @@ public:
     float 	counter;
     bool	bSmooth;
 };
-
